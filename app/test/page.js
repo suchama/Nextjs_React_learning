@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Links from "../../components/Links";
 import Footer from "../../components/Footer";
+import Headline from "../../components/Headline";
 
 export const metadata = {
   title: "テスト",
@@ -18,6 +19,7 @@ export default function Home() {
           height={20}
           priority
         />
+        <Headline title="Test Page"/>
         <Links />
       </main>
       <Footer />
